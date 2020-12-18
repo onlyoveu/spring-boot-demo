@@ -1,6 +1,5 @@
-package com.re.spring.boot.springbootdemo.threadpool;
+package com.re.spring.boot.springbootdemo.thread;
 
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Component;
 
@@ -10,7 +9,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * 自定义线程池
  */
-@Slf4j
 @Component
 public class AsyncThreadPool {
     private static final int CORE_POOL_SIZE = 1024;
