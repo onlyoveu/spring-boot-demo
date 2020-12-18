@@ -20,18 +20,6 @@
                 <checksumPolicy>fail</checksumPolicy>
             </snapshots>
         </repository>-->
-        <!--<repository>
-            <id>nexus</id>
-            <name>nexus</name>
-            <url>http://10.124.142.81/nexus/content/groups/public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-        </repository>-->
     </repositories>
     <parent>
         <groupId>org.springframework.boot</groupId>
