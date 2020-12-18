@@ -20,7 +20,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
 
 public class ExcelUtil {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(JdbcUtil.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(ExcelUtil.class);
 
     /*
      * ---------
